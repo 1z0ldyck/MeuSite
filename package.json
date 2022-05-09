@@ -1,0 +1,14 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch:sass": "yarn sass --watch app/assets/sass/main.scss app/assets/css/main.css",
+    "build:sass": "yarn sass app/assets/sass/main.scss app/assets/css/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0"
+  }
+}

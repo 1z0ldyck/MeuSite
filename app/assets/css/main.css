@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+body {
+  background-color: #141414;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+header .c-logo__name {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
